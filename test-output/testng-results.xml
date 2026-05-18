@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-17T20:06:12 IST" name="API Test Suite" finished-at="2026-05-17T20:06:14 IST" duration-ms="2005">
+  <suite started-at="2026-05-18T12:48:59 IST" name="API Test Suite" finished-at="2026-05-18T12:49:00 IST" duration-ms="1827">
     <groups>
     </groups>
-    <test started-at="2026-05-17T20:06:12 IST" name="API Test" finished-at="2026-05-17T20:06:14 IST" duration-ms="2005">
+    <test started-at="2026-05-18T12:48:59 IST" name="API Test" finished-at="2026-05-18T12:49:00 IST" duration-ms="1827">
       <class name="com.api.tests.UpdateProfileTest">
-        <test-method signature="updateProfileTest()[pri:0, instance:com.api.tests.UpdateProfileTest@24111ef1]" started-at="2026-05-17T20:06:13 IST" name="updateProfileTest" finished-at="2026-05-17T20:06:14 IST" duration-ms="488" status="PASS">
+        <test-method signature="updateProfileTest()[pri:0, instance:com.api.tests.UpdateProfileTest@24111ef1]" started-at="2026-05-18T12:49:00 IST" name="updateProfileTest" finished-at="2026-05-18T12:49:00 IST" duration-ms="387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateProfileTest -->
       </class> <!-- com.api.tests.UpdateProfileTest -->
       <class name="com.api.tests.ForgotPasswordTest">
-        <test-method signature="forgotPasswordTest()[pri:0, instance:com.api.tests.ForgotPasswordTest@53fd0d10]" started-at="2026-05-17T20:06:13 IST" name="forgotPasswordTest" description="verify if forgot password API is working..." finished-at="2026-05-17T20:06:13 IST" duration-ms="126" status="PASS">
+        <test-method signature="forgotPasswordTest()[pri:0, instance:com.api.tests.ForgotPasswordTest@53fd0d10]" started-at="2026-05-18T12:49:00 IST" name="forgotPasswordTest" description="verify if forgot password API is working..." finished-at="2026-05-18T12:49:00 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPasswordTest -->
       </class> <!-- com.api.tests.ForgotPasswordTest -->
       <class name="com.api.tests.LoginApiTest3">
-        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginApiTest3@344f4dea]" started-at="2026-05-17T20:06:12 IST" name="loginTest" finished-at="2026-05-17T20:06:13 IST" duration-ms="955" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginApiTest3@344f4dea]" started-at="2026-05-18T12:48:59 IST" name="loginTest" finished-at="2026-05-18T12:49:00 IST" duration-ms="911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- com.api.tests.LoginApiTest3 -->
       <class name="com.api.tests.GetProfileRequestTest">
-        <test-method signature="getProfileInfoTest()[pri:0, instance:com.api.tests.GetProfileRequestTest@6c0d9d86]" started-at="2026-05-17T20:06:13 IST" name="getProfileInfoTest" finished-at="2026-05-17T20:06:13 IST" duration-ms="329" status="PASS">
+        <test-method signature="getProfileInfoTest()[pri:0, instance:com.api.tests.GetProfileRequestTest@6c0d9d86]" started-at="2026-05-18T12:49:00 IST" name="getProfileInfoTest" finished-at="2026-05-18T12:49:00 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProfileInfoTest -->

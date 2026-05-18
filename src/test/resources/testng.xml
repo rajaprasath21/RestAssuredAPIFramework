@@ -3,7 +3,7 @@
 <!--<suite name="OrangeHRMSuite" parallel="methods" thread-count="5"> -->
 <!--<suite name="OrangeHRMSuite" parallel="classes" thread-count="5"> -->
 
-<suite name="API Test Suite"  thread-count="1"> 
+<suite name="API Test Suite"  thread-count="4"> 
 	<listeners>
 		<listener class-name="com.api.listeners.TestListener"></listener>
 	</listeners>
