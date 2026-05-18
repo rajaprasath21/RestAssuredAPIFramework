@@ -1,0 +1,7 @@
+com\api\tests\LoginApiTest.class
+com\api\tests\AccountCreationTest.class
+com\api\tests\GetProfileRequestTest.class
+com\api\tests\LoginApiTest2.class
+com\api\tests\UpdateProfileTest.class
+com\api\tests\ForgotPasswordTest.class
+com\api\tests\LoginApiTest3.class

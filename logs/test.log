@@ -1,0 +1,732 @@
+08:40:26.410 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+08:40:26.424 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+08:40:26.424 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:40:26.884 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:40:26.885 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+08:40:26.885 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+08:40:29.390 [main] ERROR com.api.listeners.TestListener - Test Failed!!! -> loginTest
+08:40:29.390 [main] ERROR com.api.listeners.TestListener - Exception:  -> java.net.ConnectException: Connection refused: connect
+08:40:29.407 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
+08:41:47.706 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+08:41:47.722 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+08:41:47.723 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:41:48.274 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:41:48.274 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+08:41:48.274 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+08:41:50.725 [main] ERROR com.api.listeners.TestListener - Test Failed!!! -> loginTest
+08:41:50.726 [main] ERROR com.api.listeners.TestListener - Exception:  -> java.net.ConnectException: Connection refused: connect
+08:41:50.750 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
+19:44:09.140 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+19:44:09.272 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+19:44:09.272 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:44:09.815 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+19:44:09.816 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+19:44:09.816 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+19:44:10.290 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+19:44:10.290 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:14:10 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:44:10.290 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@d13960e
+19:44:10.349 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+19:44:10.349 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:44:10.364 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
+19:45:21.162 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+19:45:21.258 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+19:45:21.258 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:45:21.823 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+19:45:21.823 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+19:45:21.823 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+19:45:22.215 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+19:45:22.215 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:15:22 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:45:22.215 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@6b4125ed
+19:45:22.254 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+19:45:22.254 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:45:22.256 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+19:45:22.256 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:45:22.259 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+19:45:22.259 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+19:45:22.259 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username": "rajaprasath", "password": "welcome" }
+19:45:22.447 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+19:45:22.447 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:15:22 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:45:22.447 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@1cb9ef52
+19:45:22.450 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+19:45:22.450 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:45:22.451 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> logginTest
+19:45:22.451 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:45:22.454 [main] INFO  com.api.filters.LoggingFilter - BASE URI: 
+19:45:22.454 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+19:45:22.454 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+19:45:22.460 [main] ERROR com.api.listeners.TestListener - Test Failed!!! -> logginTest
+19:45:22.460 [main] ERROR com.api.listeners.TestListener - Exception:  -> java.lang.IllegalStateException: Target host is null
+19:45:22.480 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
+19:46:12.032 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+19:46:12.128 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+19:46:12.128 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:46:12.687 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+19:46:12.687 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+19:46:12.688 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+19:46:13.084 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+19:46:13.084 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:16:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:46:13.084 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@3cc79c02
+19:46:13.122 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+19:46:13.122 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:46:13.124 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+19:46:13.124 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:46:13.127 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+19:46:13.127 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+19:46:13.127 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username": "rajaprasath", "password": "welcome" }
+19:46:13.314 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+19:46:13.315 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:16:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:46:13.315 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@1953bc95
+19:46:13.317 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+19:46:13.317 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:46:13.317 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> logginTest
+19:46:13.317 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:46:13.320 [main] INFO  com.api.filters.LoggingFilter - BASE URI: 
+19:46:13.320 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+19:46:13.320 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+19:46:13.326 [main] ERROR com.api.listeners.TestListener - Test Failed!!! -> logginTest
+19:46:13.326 [main] ERROR com.api.listeners.TestListener - Exception:  -> java.lang.IllegalStateException: Target host is null
+19:46:13.345 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
+19:49:28.498 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+19:49:28.593 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+19:49:28.593 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:49:29.141 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+19:49:29.142 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+19:49:29.142 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+19:49:29.532 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+19:49:29.533 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:19:29 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:49:29.533 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@33f2cfda
+19:49:29.574 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+19:49:29.574 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:49:29.576 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+19:49:29.576 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:49:29.581 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+19:49:29.581 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+19:49:29.581 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username": "rajaprasath", "password": "welcome" }
+19:49:29.777 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+19:49:29.777 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:19:29 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+19:49:29.777 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@4971f459
+19:49:29.780 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+19:49:29.780 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:49:29.781 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> logginTest
+19:49:29.781 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+19:49:29.783 [main] INFO  com.api.filters.LoggingFilter - BASE URI: 
+19:49:29.783 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+19:49:29.784 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+19:49:29.790 [main] ERROR com.api.listeners.TestListener - Test Failed!!! -> logginTest
+19:49:29.790 [main] ERROR com.api.listeners.TestListener - Exception:  -> java.lang.IllegalStateException: Target host is null
+19:49:29.808 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
+20:01:40.624 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+20:01:40.717 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+20:01:40.717 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:01:41.243 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:01:41.243 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:01:41.244 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+20:01:41.608 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:01:41.609 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:31:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:01:41.609 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@51da32e5
+20:01:41.646 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+20:01:41.646 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:01:41.648 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest1
+20:01:41.648 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:01:41.651 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:01:41.651 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:01:41.651 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username": "rajaprasath", "password": "welcome" }
+20:01:41.845 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:01:41.846 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:31:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:01:41.846 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@124d26ba
+20:01:41.848 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest1
+20:01:41.848 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:01:41.848 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest2
+20:01:41.849 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:01:41.851 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:01:41.851 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:01:41.852 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+20:01:42.035 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:01:42.035 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:31:42 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:01:42.035 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@260e3837
+20:01:42.037 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest2
+20:01:42.037 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:01:42.050 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
+20:02:53.541 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+20:02:53.631 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+20:02:53.632 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:02:54.174 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:02:54.175 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:02:54.175 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+20:02:54.548 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:02:54.548 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:32:54 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:02:54.548 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@6be6931f
+20:02:54.587 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+20:02:54.587 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:02:54.589 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> forgotPasswordTest
+20:02:54.589 [main] INFO  com.api.listeners.TestListener - Description!! -> verify if forgot password API is working...
+20:02:54.595 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:02:54.596 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:02:54.596 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"email":"rajaprasath21@gmail.com"}
+20:02:54.722 [main] INFO  com.api.filters.LoggingFilter - Status Code: 500
+20:02:54.722 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:32:54 GMT
+Connection=close
+20:02:54.722 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@1d3c112a
+20:02:54.724 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> forgotPasswordTest
+20:02:54.724 [main] INFO  com.api.listeners.TestListener - Description!! -> verify if forgot password API is working...
+20:02:54.725 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> getProfileInfoTest
+20:02:54.725 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:02:54.729 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:02:54.729 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:02:54.729 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"Rajaprasath","password":"welcome"}
+20:02:54.917 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:02:54.917 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:32:54 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:02:54.917 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@2eb60c71
+20:02:54.933 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:02:54.933 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTAyODM3NCwiZXhwIjoxNzc5MDMxOTc0fQ.hkRNh5pYtDNRTbZhvfjf_5YtSFvXFJrVzEtPezdsWdo
+Accept=*/*
+20:02:54.934 [main] INFO  com.api.filters.LoggingFilter - Request Payload: null
+20:02:55.057 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:02:55.058 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:32:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:02:55.058 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@62ade015
+20:02:55.060 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> getProfileInfoTest
+20:02:55.060 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:02:55.061 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> updateProfileTest
+20:02:55.061 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:02:55.065 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:02:55.065 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:02:55.065 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+20:02:55.258 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:02:55.258 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:32:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:02:55.258 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@16b3c905
+20:02:55.261 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:02:55.261 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTAyODM3NSwiZXhwIjoxNzc5MDMxOTc1fQ.yVG68ThJA2FpUtG-y2Yv_5zsIZf1QFD1jxsLiwCyERw
+Accept=*/*
+20:02:55.261 [main] INFO  com.api.filters.LoggingFilter - Request Payload: null
+20:02:55.391 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:02:55.391 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:32:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:02:55.391 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@33a8c9c9
+20:02:55.396 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:02:55.396 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTAyODM3NSwiZXhwIjoxNzc5MDMxOTc1fQ.yVG68ThJA2FpUtG-y2Yv_5zsIZf1QFD1jxsLiwCyERw
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTAyODM3NSwiZXhwIjoxNzc5MDMxOTc1fQ.yVG68ThJA2FpUtG-y2Yv_5zsIZf1QFD1jxsLiwCyERw
+Content-Type=application/json
+20:02:55.397 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"firstName":"rajaprasath","lastName":"marimuthu","email":"rajaprasath21@gmail.com","mobileNumber":"1234567890"}
+20:02:55.518 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:02:55.519 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:32:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:02:55.519 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@261b9a37
+20:02:55.520 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> updateProfileTest
+20:02:55.520 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:02:55.532 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
+20:06:12.189 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+20:06:12.287 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+20:06:12.287 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:06:12.828 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:06:12.829 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:06:12.829 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+20:06:13.203 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:06:13.203 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:36:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:06:13.203 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@4872669f
+20:06:13.239 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+20:06:13.239 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:06:13.241 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> forgotPasswordTest
+20:06:13.241 [main] INFO  com.api.listeners.TestListener - Description!! -> verify if forgot password API is working...
+20:06:13.247 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:06:13.247 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:06:13.247 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"email":"rajaprasath21@gmail.com"}
+20:06:13.365 [main] INFO  com.api.filters.LoggingFilter - Status Code: 500
+20:06:13.365 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:36:13 GMT
+Connection=close
+20:06:13.365 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@2c604965
+20:06:13.367 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> forgotPasswordTest
+20:06:13.368 [main] INFO  com.api.listeners.TestListener - Description!! -> verify if forgot password API is working...
+20:06:13.368 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> getProfileInfoTest
+20:06:13.368 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:06:13.372 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:06:13.373 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:06:13.373 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"Rajaprasath","password":"welcome"}
+20:06:13.557 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:06:13.557 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:36:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:06:13.558 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@647b9364
+20:06:13.573 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:06:13.573 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTAyODU3MywiZXhwIjoxNzc5MDMyMTczfQ.bZkkzIhBMrSw3Plig9fYTe-a-IiKCSCMEf5fmkToFq4
+Accept=*/*
+20:06:13.573 [main] INFO  com.api.filters.LoggingFilter - Request Payload: null
+20:06:13.695 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:06:13.695 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:36:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:06:13.695 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@487cd177
+20:06:13.698 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> getProfileInfoTest
+20:06:13.698 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:06:13.699 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> updateProfileTest
+20:06:13.699 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:06:13.703 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:06:13.703 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+20:06:13.703 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+20:06:13.934 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:06:13.934 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:36:13 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:06:13.934 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@61608e1a
+20:06:13.937 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:06:13.937 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTAyODU3MywiZXhwIjoxNzc5MDMyMTczfQ.bZkkzIhBMrSw3Plig9fYTe-a-IiKCSCMEf5fmkToFq4
+Accept=*/*
+20:06:13.938 [main] INFO  com.api.filters.LoggingFilter - Request Payload: null
+20:06:14.056 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:06:14.056 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:36:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:06:14.056 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@373afd6c
+20:06:14.061 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+20:06:14.061 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTAyODU3MywiZXhwIjoxNzc5MDMyMTczfQ.bZkkzIhBMrSw3Plig9fYTe-a-IiKCSCMEf5fmkToFq4
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTAyODU3MywiZXhwIjoxNzc5MDMyMTczfQ.bZkkzIhBMrSw3Plig9fYTe-a-IiKCSCMEf5fmkToFq4
+Content-Type=application/json
+20:06:14.062 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"firstName":"rajaprasath","lastName":"marimuthu","email":"rajaprasath21@gmail.com","mobileNumber":"1234567890"}
+20:06:14.187 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:06:14.187 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sun, 17 May 2026 14:36:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:06:14.187 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@1310fcb0
+20:06:14.188 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> updateProfileTest
+20:06:14.188 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+20:06:14.201 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
