@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-18T14:37:08 IST" name="API Test Suite" finished-at="2026-05-18T14:37:10 IST" duration-ms="2208">
+  <suite started-at="2026-05-18T16:46:43 IST" name="API Test Suite" finished-at="2026-05-18T16:46:45 IST" duration-ms="2137">
     <groups>
     </groups>
-    <test started-at="2026-05-18T14:37:08 IST" name="API Test" finished-at="2026-05-18T14:37:10 IST" duration-ms="2208">
+    <test started-at="2026-05-18T16:46:43 IST" name="API Test" finished-at="2026-05-18T16:46:45 IST" duration-ms="2137">
       <class name="com.api.tests.UpdateProfileTest">
-        <test-method signature="updateProfileTest(java.lang.String,java.lang.String)[pri:0, instance:com.api.tests.UpdateProfileTest@416c58f5]" started-at="2026-05-18T14:37:10 IST" name="updateProfileTest" data-provider="validLoginData" finished-at="2026-05-18T14:37:10 IST" duration-ms="407" status="PASS">
+        <test-method signature="updateProfileTest(java.lang.String,java.lang.String)[pri:0, instance:com.api.tests.UpdateProfileTest@ca30bc1]" started-at="2026-05-18T16:46:45 IST" name="updateProfileTest" data-provider="validLoginData" finished-at="2026-05-18T16:46:45 IST" duration-ms="423" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,20 +24,26 @@
           </reporter-output>
         </test-method> <!-- updateProfileTest -->
       </class> <!-- com.api.tests.UpdateProfileTest -->
-      <class name="com.api.tests.ForgotPasswordTest">
-        <test-method signature="forgotPasswordTest()[pri:0, instance:com.api.tests.ForgotPasswordTest@1869fbd2]" started-at="2026-05-18T14:37:09 IST" name="forgotPasswordTest" description="verify if forgot password API is working..." finished-at="2026-05-18T14:37:09 IST" duration-ms="124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgotPasswordTest -->
-      </class> <!-- com.api.tests.ForgotPasswordTest -->
       <class name="com.api.tests.LoginApiTest3">
-        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginApiTest3@3daf7722]" started-at="2026-05-18T14:37:08 IST" name="loginTest" finished-at="2026-05-18T14:37:09 IST" duration-ms="968" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.api.tests.LoginApiTest3@146dfe6]" started-at="2026-05-18T16:46:43 IST" name="loginTest" data-provider="validLoginData" finished-at="2026-05-18T16:46:44 IST" duration-ms="965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajaprasath]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- com.api.tests.LoginApiTest3 -->
       <class name="com.api.tests.GetProfileRequestTest">
-        <test-method signature="getProfileInfoTest(java.lang.String,java.lang.String)[pri:0, instance:com.api.tests.GetProfileRequestTest@1046d517]" started-at="2026-05-18T14:37:10 IST" name="getProfileInfoTest" data-provider="validLoginData" finished-at="2026-05-18T14:37:10 IST" duration-ms="317" status="PASS">
+        <test-method signature="getProfileInfoTest(java.lang.String,java.lang.String)[pri:0, instance:com.api.tests.GetProfileRequestTest@7efaad5a]" started-at="2026-05-18T16:46:44 IST" name="getProfileInfoTest" data-provider="validLoginData" finished-at="2026-05-18T16:46:45 IST" duration-ms="322" status="PASS">
           <params>
             <param index="0">
               <value>

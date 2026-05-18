@@ -1,6 +1,7 @@
 package com.api.base;
 
 import com.api.models.request.ProfileRequest;
+import com.api.models.request.ResetPasswordRequest;
 
 import io.restassured.response.Response;
 
@@ -17,5 +18,11 @@ public class UserProfileManagementService extends BaseService{
 		setAuthToken(token);
 		return putRequest(payload,BASE_PATH+"profile");
 	}
+	
+	public Response resetPassword(String token, ResetPasswordRequest payload) {
+		setAuthToken(token);
+		return putRequest(payload,BASE_PATH+"profile");
+	}
+	
 	
 }

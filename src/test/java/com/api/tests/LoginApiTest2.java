@@ -16,6 +16,6 @@ public class LoginApiTest2 {
 		
 		System.out.println(response.asPrettyString());
 		Assert.assertEquals(response.getStatusCode(),200);	
+		System.out.println("Email: "+response.jsonPath().getString("email"));
 	}
-
 }

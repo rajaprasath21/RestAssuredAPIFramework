@@ -10,13 +10,15 @@
 	<test name="API Test">
 		<classes>
 			<class name="com.api.tests.LoginApiTest3" />
-			<class name="com.api.tests.ForgotPasswordTest" />
 			<class name="com.api.tests.GetProfileRequestTest" />
 			<class name="com.api.tests.UpdateProfileTest" />
+
 			<!-- 
 			<class name="com.api.tests.AccountCreationTest" />
 			<class name="com.api.tests.LoginApiTest" />
 			<class name="com.api.tests.LoginApiTest2" />
+			<class name="com.api.tests.ResetPasswordTest" />
+			<class name="com.api.tests.ForgotPasswordTest" />
 			-->
 		</classes> 
 	</test>

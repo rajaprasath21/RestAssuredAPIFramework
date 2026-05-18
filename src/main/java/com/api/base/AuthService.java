@@ -3,6 +3,7 @@ package com.api.base;
 import java.util.HashMap;
 
 import com.api.models.request.LoginRequest;
+import com.api.models.request.ResetPasswordRequest;
 import com.api.models.request.SignUpRequest;
 
 import io.restassured.response.Response;
@@ -25,6 +26,10 @@ public class AuthService extends BaseService{
 		payload.put("email", emailAddress);
 		System.out.println("manual\n"+payload);
 		return postRequest(payload, BASE_PATH+"forgot-password");
+	}
+	
+	public Response resetPassword(ResetPasswordRequest payload) {
+		return postRequest(payload, BASE_PATH+"reset-password");
 	}
  
 }

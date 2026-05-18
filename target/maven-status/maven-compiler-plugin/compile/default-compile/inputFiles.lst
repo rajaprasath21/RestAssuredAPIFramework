@@ -5,6 +5,7 @@ F:\Downloads\eclipse-workspace\RestAssuredApiFramework\src\main\java\com\api\fil
 F:\Downloads\eclipse-workspace\RestAssuredApiFramework\src\main\java\com\api\listeners\TestListener.java
 F:\Downloads\eclipse-workspace\RestAssuredApiFramework\src\main\java\com\api\models\request\LoginRequest.java
 F:\Downloads\eclipse-workspace\RestAssuredApiFramework\src\main\java\com\api\models\request\ProfileRequest.java
+F:\Downloads\eclipse-workspace\RestAssuredApiFramework\src\main\java\com\api\models\request\ResetPasswordRequest.java
 F:\Downloads\eclipse-workspace\RestAssuredApiFramework\src\main\java\com\api\models\request\SignUpRequest.java
 F:\Downloads\eclipse-workspace\RestAssuredApiFramework\src\main\java\com\api\models\response\LoginResponse.java
 F:\Downloads\eclipse-workspace\RestAssuredApiFramework\src\main\java\com\api\models\response\UserProfileResponse.java

@@ -1,3 +1,4 @@
+com\api\tests\ResetPasswordTest.class
 com\api\tests\LoginApiTest.class
 com\api\tests\AccountCreationTest.class
 com\api\tests\GetProfileRequestTest.class

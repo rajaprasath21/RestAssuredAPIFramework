@@ -7,6 +7,7 @@ com\api\models\request\SignUpRequest$Builder.class
 com\api\utilities\ExcelReaderUtility.class
 com\api\models\request\ProfileRequest$Builder.class
 com\api\utilities\ExcelReaderUtility$1.class
+com\api\models\request\ResetPasswordRequest.class
 com\api\models\request\LoginRequest.class
 com\api\filters\LoggingFilter.class
 com\api\base\AuthService.class
