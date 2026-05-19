@@ -71,12 +71,13 @@ public class UpdateProfileTest {
 		logger.info(response3.asPrettyString());
 		logger.info(response3.getStatusCode());
 		
-		
 		if (response3.getStatusCode()==200) {
+			softAssert.assertTrue(response3.getStatusCode()==200, "The Profile updated Successfully!");
 			ExtentManager.logStepValidationForAPI("The Profile updated Successfully!");
 			logger.info("The Profile updated Successfully!");
 		}else {
 			ExtentManager.logFailureAPI("The Profile updation got failed!");
+			softAssert.assertFalse(response3.getStatusCode()==200, "The Profile updation got failed!");
 			logger.info("The Profile updation got failed!");
 		}
 		

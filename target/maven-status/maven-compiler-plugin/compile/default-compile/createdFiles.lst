@@ -3,6 +3,7 @@ com\api\base\BaseService.class
 com\api\utilities\DataProviders.class
 com\api\listeners\TestListener.class
 com\api\models\response\UserProfileResponse.class
+com\api\utilities\RetryAnalyzer.class
 com\api\models\request\SignUpRequest$Builder.class
 com\api\utilities\ExcelReaderUtility.class
 com\api\models\request\ProfileRequest$Builder.class

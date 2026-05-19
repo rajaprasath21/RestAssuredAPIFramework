@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="2.702" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="2.819" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\MR3\AppData\Local\Temp\surefire11196660158964054271\surefirebooter-20260518164642775_3.jar C:\Users\MR3\AppData\Local\Temp\surefire11196660158964054271 2026-05-18T16-46-42_653-jvmRun1 surefire-20260518164642775_1tmp surefire_0-20260518164642775_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\MR3\AppData\Local\Temp\surefire8355165874614893817\surefirebooter-20260519084527383_3.jar C:\Users\MR3\AppData\Local\Temp\surefire8355165874614893817 2026-05-19T08-45-27_277-jvmRun1 surefire-20260519084527383_1tmp surefire_0-20260519084527383_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\Downloads\eclipse-workspace\RestAssuredApiFramework\target\test-classes;F:\Downloads\eclipse-workspace\RestAssuredApiFramework\target\classes;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\MR3\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\MR3\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\MR3\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\MR3\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\MR3\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\MR3\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\MR3\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\MR3\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\MR3\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\MR3\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\MR3\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\MR3\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\MR3\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\MR3\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\MR3\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\MR3\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\MR3\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\MR3\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\MR3\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\MR3\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\MR3\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\MR3\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\MR3\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\MR3\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\MR3\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\MR3\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\MR3\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\MR3\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\MR3\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\MR3\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\MR3\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\MR3\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\MR3\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar;C:\Users\MR3\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar;C:\Users\MR3\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\MR3\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\MR3\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\MR3\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\MR3\.m2\repository\com\mysql\mysql-connector-j\9.1.0\mysql-connector-j-9.1.0.jar;C:\Users\MR3\.m2\repository\com\google\protobuf\protobuf-java\4.26.1\protobuf-java-4.26.1.jar;C:\Users\MR3\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\MR3\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\MR3\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\MR3\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\MR3\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\MR3\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\MR3\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\MR3\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\MR3\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\MR3\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\MR3\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\MR3\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\MR3\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\MR3\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.3\jackson-databind-2.21.3.jar;C:\Users\MR3\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.3\jackson-core-2.21.3.jar;C:\Users\MR3\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\MR3\AppData\Local\Temp\surefire11196660158964054271\surefirebooter-20260518164642775_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MR3\AppData\Local\Temp\surefire8355165874614893817\surefirebooter-20260519084527383_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -57,16 +57,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="loginTest[rajaprasath, welcome](1)" classname="com.api.tests.LoginApiTest3" time="0.954">
-    <system-out><![CDATA[16:46:43.416 [main] INFO  com.api.listeners.TestListener - Test Suite started..
-16:46:43.812 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
-16:46:43.812 [main] INFO  com.api.listeners.TestListener - Description!! -> 
-16:46:44.371 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
-16:46:44.371 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+  <testcase name="loginTest[rajaprasath, welcome](1)" classname="com.api.tests.LoginApiTest3" time="1.048">
+    <system-out><![CDATA[08:45:28.007 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+08:45:28.405 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+08:45:28.405 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:45:28.984 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:45:28.984 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
 Content-Type=application/json
-16:46:44.371 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
-16:46:44.726 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
-16:46:44.726 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+08:45:28.984 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+08:45:29.411 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:45:29.411 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -82,12 +82,12 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Mon, 18 May 2026 11:16:45 GMT
+Date=Tue, 19 May 2026 03:15:29 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-16:46:44.727 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@7cfb8e98
-16:46:44.763 [main] INFO  com.api.filters.LoggingFilter - {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTEwMzAwNSwiZXhwIjoxNzc5MTA2NjA1fQ.cegXyodgh6jVwuV0zxvw3DFkQY35eAnmwgacamvQ4v0",
+08:45:29.411 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@133aacbe
+08:45:29.450 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTE2MDUyOSwiZXhwIjoxNzc5MTY0MTI5fQ.SzQoMrKe0Vsase7W7p1Znx13ZqqctBVm7aFH8Tv4qwI",
     "type": "Bearer",
     "id": 5199,
     "username": "rajaprasath",
@@ -96,26 +96,26 @@ Connection=keep-alive
         "ROLE_USER"
     ]
 }
-16:46:44.766 [main] INFO  com.api.filters.LoggingFilter - eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTEwMzAwNSwiZXhwIjoxNzc5MTA2NjA1fQ.cegXyodgh6jVwuV0zxvw3DFkQY35eAnmwgacamvQ4v0
-16:46:44.766 [main] INFO  com.api.filters.LoggingFilter - rajaprasath21@gmail.com
-16:46:44.766 [main] INFO  com.api.filters.LoggingFilter - 5199
+08:45:29.452 [main] INFO  com.api.filters.LoggingFilter - eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTE2MDUyOSwiZXhwIjoxNzc5MTY0MTI5fQ.SzQoMrKe0Vsase7W7p1Znx13ZqqctBVm7aFH8Tv4qwI
+08:45:29.452 [main] INFO  com.api.filters.LoggingFilter - rajaprasath21@gmail.com
+08:45:29.452 [main] INFO  com.api.filters.LoggingFilter - 5199
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="getProfileInfoTest[rajaprasath, welcome](1)" classname="com.api.tests.GetProfileRequestTest" time="0.321">
-    <system-out><![CDATA[16:46:44.768 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
-16:46:44.768 [main] INFO  com.api.listeners.TestListener - Description!! -> 
-16:46:44.784 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> getProfileInfoTest
-16:46:44.784 [main] INFO  com.api.listeners.TestListener - Description!! -> 
-16:46:44.788 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
-16:46:44.788 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+  <testcase name="getProfileInfoTest[rajaprasath, welcome](1)" classname="com.api.tests.GetProfileRequestTest" time="0.326">
+    <system-out><![CDATA[08:45:29.454 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+08:45:29.455 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:45:29.472 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> getProfileInfoTest
+08:45:29.472 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:45:29.476 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:45:29.476 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
 Content-Type=application/json
-16:46:44.788 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
-16:46:44.975 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
-16:46:44.975 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+08:45:29.476 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+08:45:29.663 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:45:29.664 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -131,12 +131,12 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Mon, 18 May 2026 11:16:45 GMT
+Date=Tue, 19 May 2026 03:15:29 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-16:46:44.975 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@13ca16bf
-16:46:44.978 [main] INFO  com.api.filters.LoggingFilter - {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTEwMzAwNSwiZXhwIjoxNzc5MTA2NjA1fQ.cegXyodgh6jVwuV0zxvw3DFkQY35eAnmwgacamvQ4v0",
+08:45:29.664 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@59d5a6fd
+08:45:29.667 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTE2MDUyOSwiZXhwIjoxNzc5MTY0MTI5fQ.SzQoMrKe0Vsase7W7p1Znx13ZqqctBVm7aFH8Tv4qwI",
     "type": "Bearer",
     "id": 5199,
     "username": "rajaprasath",
@@ -145,13 +145,13 @@ Connection=keep-alive
         "ROLE_USER"
     ]
 }
-16:46:44.978 [main] INFO  com.api.filters.LoggingFilter - ----------------------------------
-16:46:44.991 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
-16:46:44.991 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTEwMzAwNSwiZXhwIjoxNzc5MTA2NjA1fQ.cegXyodgh6jVwuV0zxvw3DFkQY35eAnmwgacamvQ4v0
+08:45:29.667 [main] INFO  com.api.filters.LoggingFilter - ----------------------------------
+08:45:29.682 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:45:29.682 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTE2MDUyOSwiZXhwIjoxNzc5MTY0MTI5fQ.SzQoMrKe0Vsase7W7p1Znx13ZqqctBVm7aFH8Tv4qwI
 Accept=*/*
-16:46:44.992 [main] INFO  com.api.filters.LoggingFilter - Request Payload: null
-16:46:45.097 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
-16:46:45.098 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+08:45:29.682 [main] INFO  com.api.filters.LoggingFilter - Request Payload: null
+08:45:29.795 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:45:29.795 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -167,11 +167,11 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Mon, 18 May 2026 11:16:46 GMT
+Date=Tue, 19 May 2026 03:15:29 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-16:46:45.098 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@23e2c1ca
-16:46:45.098 [main] INFO  com.api.filters.LoggingFilter - {
+08:45:29.795 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@baa9ce4
+08:45:29.796 [main] INFO  com.api.filters.LoggingFilter - {
     "id": 5199,
     "username": "rajaprasath",
     "email": "rajaprasath21@gmail.com",
@@ -179,21 +179,21 @@ Connection=keep-alive
     "lastName": "marimuthu",
     "mobileNumber": "1234567890"
 }
-16:46:45.100 [main] INFO  com.api.filters.LoggingFilter - rajaprasath
-16:46:45.106 [main] INFO  com.api.filters.LoggingFilter - Username Validation Passed! : rajaprasath
+08:45:29.798 [main] INFO  com.api.filters.LoggingFilter - rajaprasath
+08:45:29.798 [main] INFO  com.api.filters.LoggingFilter - Username Validation Passed! : rajaprasath
 ]]></system-out>
   </testcase>
-  <testcase name="updateProfileTest[rajaprasath, welcome](1)" classname="com.api.tests.UpdateProfileTest" time="0.423">
-    <system-out><![CDATA[16:46:45.106 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> getProfileInfoTest
-16:46:45.106 [main] INFO  com.api.listeners.TestListener - Description!! -> 
-16:46:45.123 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> updateProfileTest
-16:46:45.123 [main] INFO  com.api.listeners.TestListener - Description!! -> 
-16:46:45.127 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
-16:46:45.127 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+  <testcase name="updateProfileTest[rajaprasath, welcome](1)" classname="com.api.tests.UpdateProfileTest" time="0.42">
+    <system-out><![CDATA[08:45:29.799 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> getProfileInfoTest
+08:45:29.799 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:45:29.814 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> updateProfileTest
+08:45:29.814 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:45:29.819 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:45:29.819 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
 Content-Type=application/json
-16:46:45.127 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
-16:46:45.300 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
-16:46:45.300 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+08:45:29.819 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+08:45:29.999 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:45:29.999 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -209,12 +209,12 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Mon, 18 May 2026 11:16:46 GMT
+Date=Tue, 19 May 2026 03:15:29 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-16:46:45.300 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@5c70d7f0
-16:46:45.302 [main] INFO  com.api.filters.LoggingFilter - {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTEwMzAwNiwiZXhwIjoxNzc5MTA2NjA2fQ.e1K2ZUPjrZ7b_LNIS_7cfGRf4qU6jACFthk3rtHqrfE",
+08:45:29.999 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@635ff2a5
+08:45:30.001 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTE2MDUyOSwiZXhwIjoxNzc5MTY0MTI5fQ.SzQoMrKe0Vsase7W7p1Znx13ZqqctBVm7aFH8Tv4qwI",
     "type": "Bearer",
     "id": 5199,
     "username": "rajaprasath",
@@ -223,13 +223,13 @@ Connection=keep-alive
         "ROLE_USER"
     ]
 }
-16:46:45.302 [main] INFO  com.api.filters.LoggingFilter - ----------------------------------
-16:46:45.304 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
-16:46:45.304 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTEwMzAwNiwiZXhwIjoxNzc5MTA2NjA2fQ.e1K2ZUPjrZ7b_LNIS_7cfGRf4qU6jACFthk3rtHqrfE
+08:45:30.001 [main] INFO  com.api.filters.LoggingFilter - ----------------------------------
+08:45:30.003 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:45:30.003 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTE2MDUyOSwiZXhwIjoxNzc5MTY0MTI5fQ.SzQoMrKe0Vsase7W7p1Znx13ZqqctBVm7aFH8Tv4qwI
 Accept=*/*
-16:46:45.304 [main] INFO  com.api.filters.LoggingFilter - Request Payload: null
-16:46:45.420 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
-16:46:45.420 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+08:45:30.003 [main] INFO  com.api.filters.LoggingFilter - Request Payload: null
+08:45:30.115 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:45:30.115 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -245,11 +245,11 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Mon, 18 May 2026 11:16:46 GMT
+Date=Tue, 19 May 2026 03:15:30 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-16:46:45.420 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@7aae1170
-16:46:45.420 [main] INFO  com.api.filters.LoggingFilter - {
+08:45:30.115 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@6eede35e
+08:45:30.116 [main] INFO  com.api.filters.LoggingFilter - {
     "id": 5199,
     "username": "rajaprasath",
     "email": "rajaprasath21@gmail.com",
@@ -257,17 +257,17 @@ Connection=keep-alive
     "lastName": "marimuthu",
     "mobileNumber": "1234567890"
 }
-16:46:45.421 [main] INFO  com.api.filters.LoggingFilter - rajaprasath
-16:46:45.422 [main] INFO  com.api.filters.LoggingFilter - Username Validation Passed!: rajaprasath
-16:46:45.422 [main] INFO  com.api.filters.LoggingFilter - ----------------------------------
-16:46:45.426 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
-16:46:45.426 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTEwMzAwNiwiZXhwIjoxNzc5MTA2NjA2fQ.e1K2ZUPjrZ7b_LNIS_7cfGRf4qU6jACFthk3rtHqrfE
+08:45:30.117 [main] INFO  com.api.filters.LoggingFilter - rajaprasath
+08:45:30.117 [main] INFO  com.api.filters.LoggingFilter - Username Validation Passed!: rajaprasath
+08:45:30.117 [main] INFO  com.api.filters.LoggingFilter - ----------------------------------
+08:45:30.121 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:45:30.121 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTE2MDUyOSwiZXhwIjoxNzc5MTY0MTI5fQ.SzQoMrKe0Vsase7W7p1Znx13ZqqctBVm7aFH8Tv4qwI
 Accept=*/*
-Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTEwMzAwNiwiZXhwIjoxNzc5MTA2NjA2fQ.e1K2ZUPjrZ7b_LNIS_7cfGRf4qU6jACFthk3rtHqrfE
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc3OTE2MDUyOSwiZXhwIjoxNzc5MTY0MTI5fQ.SzQoMrKe0Vsase7W7p1Znx13ZqqctBVm7aFH8Tv4qwI
 Content-Type=application/json
-16:46:45.426 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"firstName":"rajaprasath","lastName":"marimuthu","email":"rajaprasath21@gmail.com","mobileNumber":"1234567890"}
-16:46:45.545 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
-16:46:45.545 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+08:45:30.121 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"firstName":"rajaprasath","lastName":"marimuthu","email":"rajaprasath21@gmail.com","mobileNumber":"1234567890"}
+08:45:30.233 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:45:30.233 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -283,11 +283,11 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Mon, 18 May 2026 11:16:46 GMT
+Date=Tue, 19 May 2026 03:15:30 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
-16:46:45.546 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@2eebce87
-16:46:45.546 [main] INFO  com.api.filters.LoggingFilter - {
+08:45:30.234 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@38f617f4
+08:45:30.234 [main] INFO  com.api.filters.LoggingFilter - {
     "id": 5199,
     "username": "rajaprasath",
     "email": "rajaprasath21@gmail.com",
@@ -295,8 +295,8 @@ Connection=keep-alive
     "lastName": "marimuthu",
     "mobileNumber": "1234567890"
 }
-16:46:45.546 [main] INFO  com.api.filters.LoggingFilter - 200
-16:46:45.546 [main] INFO  com.api.filters.LoggingFilter - The Profile updated Successfully!
+08:45:30.234 [main] INFO  com.api.filters.LoggingFilter - 200
+08:45:30.235 [main] INFO  com.api.filters.LoggingFilter - The Profile updated Successfully!
 ]]></system-out>
   </testcase>
 </testsuite>
