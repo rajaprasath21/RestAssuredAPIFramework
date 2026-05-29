@@ -83,7 +83,7 @@ pipeline {
                 <html>
                 <body>
 
-                <h2 style="color:green;">API Automation Build Success ✅</h2>
+                <h2 style="color:green;">API Automation Build Success</h2>
 
                 <p><b>Project:</b> ${env.JOB_NAME}</p>
                 <p><b>Build Number:</b> ${env.BUILD_NUMBER}</p>
@@ -125,7 +125,7 @@ pipeline {
                 <html>
                 <body>
 
-                <h2 style="color:red;">API Automation Build Failed ❌</h2>
+                <h2 style="color:red;">API Automation Build Failed</h2>
 
                 <p><b>Project:</b> ${env.JOB_NAME}</p>
                 <p><b>Build Number:</b> ${env.BUILD_NUMBER}</p>
