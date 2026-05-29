@@ -1498,3 +1498,235 @@ Connection=keep-alive
 08:45:30.235 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> updateProfileTest
 08:45:30.235 [main] INFO  com.api.listeners.TestListener - Description!! -> 
 08:45:30.247 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
+08:26:11.055 [main] INFO  com.api.listeners.TestListener - Test Suite started..
+08:26:11.593 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> loginTest
+08:26:11.593 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:26:12.209 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:26:12.209 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+08:26:12.209 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+08:26:12.583 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:26:12.583 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 29 May 2026 02:56:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+08:26:12.583 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@2dd0a0d0
+08:26:12.625 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc4MDAyMzM3NCwiZXhwIjoxNzgwMDI2OTc0fQ.lp6yiPPwbEnEgJY_aIBLIE7HqTUgxYeTDu4vBpeazpE",
+    "type": "Bearer",
+    "id": 5199,
+    "username": "rajaprasath",
+    "email": "rajaprasath21@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+08:26:12.627 [main] INFO  com.api.filters.LoggingFilter - eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc4MDAyMzM3NCwiZXhwIjoxNzgwMDI2OTc0fQ.lp6yiPPwbEnEgJY_aIBLIE7HqTUgxYeTDu4vBpeazpE
+08:26:12.627 [main] INFO  com.api.filters.LoggingFilter - rajaprasath21@gmail.com
+08:26:12.628 [main] INFO  com.api.filters.LoggingFilter - 5199
+08:26:12.631 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> loginTest
+08:26:12.631 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:26:12.649 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> getProfileInfoTest
+08:26:12.649 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:26:12.660 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:26:12.660 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+08:26:12.661 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+08:26:12.842 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:26:12.842 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 29 May 2026 02:56:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+08:26:12.842 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@16a6dc21
+08:26:12.845 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc4MDAyMzM3NCwiZXhwIjoxNzgwMDI2OTc0fQ.lp6yiPPwbEnEgJY_aIBLIE7HqTUgxYeTDu4vBpeazpE",
+    "type": "Bearer",
+    "id": 5199,
+    "username": "rajaprasath",
+    "email": "rajaprasath21@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+08:26:12.845 [main] INFO  com.api.filters.LoggingFilter - ----------------------------------
+08:26:12.859 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:26:12.859 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc4MDAyMzM3NCwiZXhwIjoxNzgwMDI2OTc0fQ.lp6yiPPwbEnEgJY_aIBLIE7HqTUgxYeTDu4vBpeazpE
+Accept=*/*
+08:26:12.859 [main] INFO  com.api.filters.LoggingFilter - Request Payload: null
+08:26:12.990 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:26:12.990 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 29 May 2026 02:56:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+08:26:12.990 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@5e98032e
+08:26:12.990 [main] INFO  com.api.filters.LoggingFilter - {
+    "id": 5199,
+    "username": "rajaprasath",
+    "email": "rajaprasath21@gmail.com",
+    "firstName": "Rajaprasath",
+    "lastName": "Marimuthu",
+    "mobileNumber": "3548490559"
+}
+08:26:12.992 [main] INFO  com.api.filters.LoggingFilter - rajaprasath
+08:26:12.993 [main] INFO  com.api.filters.LoggingFilter - Username Validation Passed! : rajaprasath
+08:26:12.993 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> getProfileInfoTest
+08:26:12.994 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:26:13.006 [main] INFO  com.api.listeners.TestListener - Test Started!!! -> updateProfileTest
+08:26:13.007 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:26:13.014 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:26:13.014 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+08:26:13.014 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"rajaprasath","password":"welcome"}
+08:26:13.202 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:26:13.202 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 29 May 2026 02:56:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+08:26:13.202 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@2cbe455c
+08:26:13.205 [main] INFO  com.api.filters.LoggingFilter - {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc4MDAyMzM3NCwiZXhwIjoxNzgwMDI2OTc0fQ.lp6yiPPwbEnEgJY_aIBLIE7HqTUgxYeTDu4vBpeazpE",
+    "type": "Bearer",
+    "id": 5199,
+    "username": "rajaprasath",
+    "email": "rajaprasath21@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+08:26:13.205 [main] INFO  com.api.filters.LoggingFilter - ----------------------------------
+08:26:13.206 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:26:13.206 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc4MDAyMzM3NCwiZXhwIjoxNzgwMDI2OTc0fQ.lp6yiPPwbEnEgJY_aIBLIE7HqTUgxYeTDu4vBpeazpE
+Accept=*/*
+08:26:13.206 [main] INFO  com.api.filters.LoggingFilter - Request Payload: null
+08:26:13.317 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:26:13.318 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 29 May 2026 02:56:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+08:26:13.318 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@b5c902
+08:26:13.318 [main] INFO  com.api.filters.LoggingFilter - {
+    "id": 5199,
+    "username": "rajaprasath",
+    "email": "rajaprasath21@gmail.com",
+    "firstName": "Rajaprasath",
+    "lastName": "Marimuthu",
+    "mobileNumber": "3548490559"
+}
+08:26:13.319 [main] INFO  com.api.filters.LoggingFilter - rajaprasath
+08:26:13.320 [main] INFO  com.api.filters.LoggingFilter - Username Validation Passed!: rajaprasath
+08:26:13.320 [main] INFO  com.api.filters.LoggingFilter - ----------------------------------
+08:26:13.324 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+08:26:13.324 [main] INFO  com.api.filters.LoggingFilter - Request Header: Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc4MDAyMzM3NCwiZXhwIjoxNzgwMDI2OTc0fQ.lp6yiPPwbEnEgJY_aIBLIE7HqTUgxYeTDu4vBpeazpE
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWphcHJhc2F0aCIsImlhdCI6MTc4MDAyMzM3NCwiZXhwIjoxNzgwMDI2OTc0fQ.lp6yiPPwbEnEgJY_aIBLIE7HqTUgxYeTDu4vBpeazpE
+Content-Type=application/json
+08:26:13.325 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"firstName":"rajaprasath","lastName":"marimuthu","email":"rajaprasath21@gmail.com","mobileNumber":"1234567890"}
+08:26:13.447 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+08:26:13.447 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 29 May 2026 02:56:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+08:26:13.447 [main] INFO  com.api.filters.LoggingFilter - Response Body: io.restassured.internal.RestAssuredResponseImpl@25a290ee
+08:26:13.447 [main] INFO  com.api.filters.LoggingFilter - {
+    "id": 5199,
+    "username": "rajaprasath",
+    "email": "rajaprasath21@gmail.com",
+    "firstName": "rajaprasath",
+    "lastName": "marimuthu",
+    "mobileNumber": "1234567890"
+}
+08:26:13.447 [main] INFO  com.api.filters.LoggingFilter - 200
+08:26:13.448 [main] INFO  com.api.filters.LoggingFilter - The Profile updated Successfully!
+08:26:13.449 [main] INFO  com.api.listeners.TestListener - Test Passed!!! -> updateProfileTest
+08:26:13.449 [main] INFO  com.api.listeners.TestListener - Description!! -> 
+08:26:13.461 [main] INFO  com.api.listeners.TestListener - Test Suite completed..
