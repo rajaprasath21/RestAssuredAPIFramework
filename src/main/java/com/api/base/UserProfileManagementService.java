@@ -23,6 +23,5 @@ public class UserProfileManagementService extends BaseService{
 		setAuthToken(token);
 		return putRequest(payload,BASE_PATH+"profile");
 	}
-	
-	
+		
 }

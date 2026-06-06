@@ -11,6 +11,16 @@
           <include name="updateProfileTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.api.tests.UpdateProfileTest -->
+      <class name="com.api.tests.GetProfileRequestTest">
+        <methods>
+          <include name="getProfileInfoTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.api.tests.GetProfileRequestTest -->
+      <class name="com.api.tests.LoginApiTest3">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.api.tests.LoginApiTest3 -->
     </classes>
   </test> <!-- API Test(failed) -->
 </suite> <!-- Failed suite [API Test Suite] -->
